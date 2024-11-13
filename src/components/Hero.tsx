@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import portrait from '../assets/rocket.png';
+import hero_img from '../assets/rocket-hero.webp';
 
 import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin} from "react-icons/ai";
 
@@ -11,7 +11,7 @@ const HeroSection = () => {
   
         <div className="relative flex justify-center items-center md:flex-1 w-full h-full md:h-auto overflow-hidden">
             <motion.img
-                src={portrait}
+                src={hero_img}
                 alt="Project Manager"
                 className="w-[300px] md:w-[500px]"
                 initial={{ y: '50vh', opacity: 0 }} // Začína pod obrazovkou
@@ -22,7 +22,11 @@ const HeroSection = () => {
             </div>
 
         <div className="relative flex-1 text-center md:text-left md:pl-12 mt-8 md:mt-0 z-10">
-          <h1 className="text-xl md:text-6xl font-extrabold text-gray-800">Marek <span className='text-[#2e4746]'>Bagár</span></h1>
+          <motion.h1 className="text-xl md:text-6xl font-extrabold text-gray-800"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: .7 }}
+          >Marek <span className='text-[#124746]'>Bagár</span></motion.h1>
           <h2 className="text-lg md:text-xl text-gray-600 mt-2">Project Manager</h2>
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-6">
             {cardData.map((card, index) => (
@@ -46,10 +50,10 @@ const HeroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white border border-black/15 p-3 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 cursor-pointer dark:bg-white/10 dark:text-white/80"
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: (index + 1) * 0.1, duration: 0.6 }}
-            >
+              transition={{ delay: index * 0.1, duration: 0.5 }}
+              >
               {link.icon}
             </motion.a>
           ))}

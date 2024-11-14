@@ -22,19 +22,24 @@ const HeroSection = () => {
             </div>
 
         <div className="relative flex-1 text-center md:text-left md:pl-12 mt-8 md:mt-0 z-10">
-          <h2 className="text-xl md:text-2xl font-extrabold text-gray-400">Project Manager</h2>
-          <motion.h1 className="text-4xl md:text-7xl font-extrabold text-gray-800"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: .7 }}
-          >
-          Marek 
-          <span className='text-[#124746]'>Bagár</span>
-          </motion.h1>
-          <div className="flex flex-col mt-10">
+          <motion.div
+            initial={{ opacity: 0, y: -80 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: .8 }}>
+            <h2 className="text-xl md:text-2xl font-extrabold text-gray-400">Project Manager</h2>
+            <h1 className="text-4xl md:text-7xl font-extrabold text-gray-800">
+              Marek 
+              <span className='text-[#124746]'> Bagár</span>
+            </h1>
+          </motion.div>
+          <motion.div className="flex flex-col mt-10"
+            initial={{ opacity: 0, backgroundColor: "#fff" }}
+            animate={{ opacity: 1, backgroundColor: "transparent" }}
+            transition={{ duration: 0.8, ease: "easeIn" }}
+            >
             <h1 className='text-xl sm:text-2xl text-green-950 font-semibold italic mb-8 md:mb-2'>„Kde vízia stretáva efektivitu“</h1>
             <h2 className='text-lg text-green-950'>Projektový manažér zameraný na výsledky, premením vaše nápady na úspešné projekty.</h2>
-          </div>
+          </motion.div>
           <div className="mt-8 flex flex-row justify-center md:justify-normal gap-4">
           {socialLinks.map((link, index) => (
             <motion.a

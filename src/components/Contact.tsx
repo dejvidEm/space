@@ -10,8 +10,8 @@ import { AccordionComponent } from './ui/accordionComponent';
 
 const Contact = () => {
   return (
-    <div className='max-w-[1200px] flex flex-col gap-16 lg:flex-row p-14 md:p-12 mx-auto'>
-      <motion.section className='w-full lg:w-1/2'>
+    <div className='max-w-[1200px] flex flex-col gap-20 lg:flex-row p-14 md:p-12 mx-auto'>
+      <motion.section className='w-full lg:w-1/3'>
         <AccordionComponent />
       </motion.section>
 
@@ -21,7 +21,7 @@ const Contact = () => {
         transition={{ duration: 1 }} 
         viewport={{ once: true }} 
         id='contact' 
-        className='text-center mb-20 sm:mb-28 w-full lg:w-1/2 [min(100%, 38rem)] border-gray-300 lg:border-l lg:pl-14 lg:border-t-0'
+        className='text-center mb-20 sm:mb-28 w-full lg:w-2/3 [min(100%, 38rem)] border-gray-300 lg:border-l lg:pl-20 lg:border-t-0'
       >
         <SectionHeading title="Kontakt" />
         <p className='text-gray-700 dark:text-white/80 my-8'>

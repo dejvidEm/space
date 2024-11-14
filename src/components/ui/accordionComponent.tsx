@@ -16,19 +16,17 @@ const accordionItems: AccordionData[] = [
   {
     value: "1",
     trigger: "Ako prebieha spolupráca?",
-    content: "Yes. It adheres to the WAI-ARIA design pattern.",
+    content: "Spolupráca prebieha prostredníctvom pravidelných konzultácií, kde sa riešia ciele klienta podľa vopred stanoveného plánu. Využívame osvedčené projektové postupy a priebežné hodnotenie pokroku.",
   },
   {
     value: "2",
     trigger: "Je úvodné stretnutie spoplatnené?",
-    content:
-      "Yes. It comes with default styles that match the other components' aesthetic.",
+    content: "Úvodné stretnutie je poskytované bezplatne a je nezáväzné. Jeho cieľom je umožniť obojstranné oboznámenie sa a porozumenie požiadaviek klienta, ako aj predbežné nastavenie rámcových cieľov spolupráce.",
   },
   {
     value: "3",
     trigger: "Ako dlho trvá spolupráca?",
-    content:
-      "Yes. It's animated by default, but you can disable it if you prefer.",
+    content: "Dĺžka spolupráce je flexibilná a závisí od konkrétnych cieľov a potrieb klienta. Zvyčajne spolupráca zahŕňa strednodobý až dlhodobý horizont, ktorý umožňuje dosiahnuť udržateľné výsledky. Časový rámec je dohodnutý na základe úvodnej analýzy a môže sa líšiť",
   },
 ];
 

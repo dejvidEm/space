@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div>Services</div>
+    <div className="h-screen w-full">Services</div>
   )
 }
 

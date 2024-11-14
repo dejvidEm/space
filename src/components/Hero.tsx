@@ -57,12 +57,6 @@ const HeroSection = () => {
   };
 
 
-const cardData = [
-  { title: 'Experience', description: '5+ years in project management' },
-  { title: 'Skills', description: 'Agile, Scrum, Lean methodologies' },
-  { title: 'Certifications', description: 'PMP, CSM, PRINCE2' },
-];
-
 const socialLinks = [
     {
       href: 'https://www.linkedin.com/in/d%C3%A1vid-mikul%C3%A1%C5%A1-602a92226/',

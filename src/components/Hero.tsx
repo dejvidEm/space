@@ -22,27 +22,20 @@ const HeroSection = () => {
             </div>
 
         <div className="relative flex-1 text-center md:text-left md:pl-12 mt-8 md:mt-0 z-10">
-          <motion.h1 className="text-xl md:text-6xl font-extrabold text-gray-800"
+          <h2 className="text-xl md:text-2xl font-extrabold text-gray-400">Project Manager</h2>
+          <motion.h1 className="text-4xl md:text-7xl font-extrabold text-gray-800"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: .7 }}
-          >Marek <span className='text-[#124746]'>Bagár</span></motion.h1>
-          <h2 className="text-lg md:text-xl text-gray-600 mt-2">Project Manager</h2>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-6">
-            {cardData.map((card, index) => (
-              <motion.div
-                key={index}
-                className="bg-white rounded-lg shadow-lg p-6 flex-1 text-center md:text-left"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.13, duration: 0.5 }}
-              >
-                <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
-                <p className="text-gray-600 mt-2 text-sm">{card.description}</p>
-              </motion.div>
-            ))}
+          >
+          Marek 
+          <span className='text-[#124746]'>Bagár</span>
+          </motion.h1>
+          <div className="flex flex-col mt-10">
+            <h1 className='text-xl sm:text-2xl text-green-950 font-semibold italic mb-8 md:mb-2'>„Kde vízia stretáva efektivitu“</h1>
+            <h2 className='text-lg text-green-950'>Projektový manažér zameraný na výsledky, premením vaše nápady na úspešné projekty.</h2>
           </div>
-          <div className="mt-8 flex flex-row gap-4">
+          <div className="mt-8 flex flex-row justify-center md:justify-normal gap-4">
           {socialLinks.map((link, index) => (
             <motion.a
               key={index}

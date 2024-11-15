@@ -39,7 +39,6 @@ const AboutCard: React.FC<CardData & { position: "left" | "right" }> = ({ title,
     hidden: { opacity: 0, x: position === "left" ? -50 : 50 },
   };
 
-  // Určime ikonu pre každú kartu na základe jej ID
   let icon;
   if (id === 1) {
     icon = <PiGraphFill size={32} className="text-[#0a8980]" />;
@@ -70,9 +69,9 @@ const AboutCard: React.FC<CardData & { position: "left" | "right" }> = ({ title,
 };
 
 const AboutPage: React.FC = () => (
-  <div id="o mne" className="min-h-screen flex flex-col items-center p-4 md:p-8">
+  <div id="o mne" className="min-h-screen flex flex-col items-center p-4 md:p-8 mb-28">
     <SectionHeading title={"O mne"} subtitle="Som Projektový manažér ktorý..."/>
-    <div className="flex flex-col gap-8 relative mt-16">
+    <div className="flex flex-col gap-8 relative mt-4">
       <div className="w-1 h-8 rounded-lg bg-gray-100 mx-auto"></div>
       {cardsData.map((card, index) => (
         <React.Fragment key={card.id}>

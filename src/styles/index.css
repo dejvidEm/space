@@ -56,6 +56,11 @@
     --chart-5: 340 75% 55%
   }
 }
+
+html {
+  overflow-x: hidden;
+}
+
 @layer base {
   * {
     @apply border-border;

@@ -5,56 +5,61 @@ import {
   GlobeIcon,
 } from "@radix-ui/react-icons";
 
+import { PiLinkBold, PiNetwork, PiSuitcaseSimple   } from "react-icons/pi";
+
+
 import { BentoCard, BentoGrid } from "./ui/bento-grid";
 import SectionHeading from "./ui/sectionHeading";
+import Divider from "./ui/sectionDivider";
 
 const features = [
   {
-    Icon: FileTextIcon,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
-    href: "/",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
-    className: "lg:col-span-2 lg:row-span-1", // Veľká karta hore (ľavá strana)
-  },
-  {
-    Icon: GlobeIcon,
-    name: "Multilingual",
-    description: "Supports 100+ languages and counting.",
-    href: "/",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
-    className: "lg:col-span-1 lg:row-span-1", // Malá karta hore (pravá strana)
-  },
-  {
     Icon: CalendarIcon,
-    name: "Calendar",
-    description: "Use the calendar to filter your files by date.",
-    href: "/",
-    cta: "Learn more",
+    name: "Plánovanie projektov",
+    description: "Efektívne plánovanie je základom úspešného projektu. Zahŕňa tvorbu podrobného plánu, ktorý definuje rozsah, harmonogram a alokáciu zdrojov, čím zaisťuje plynulý priebeh bez časových a rozpočtových sklzov.",
+    href: "kontakt",
+    cta: "Mám záujem",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
-    className: "lg:col-span-1 lg:row-span-1", // Malá karta dole (ľavá strana)
+    className: "lg:col-span-2 lg:row-span-1",
   },
   {
-    Icon: BellIcon,
-    name: "Notifications",
-    description:
-      "Get notified when someone shares a file or mentions you in a comment.",
-    href: "/",
-    cta: "Learn more",
+    Icon: PiNetwork,
+    name: "Riadenie rizík",
+    description: "Identifikácia a správa rizík zabezpečujú stabilitu projektu. Projektový manažér analyzuje potenciálne riziká, pripravuje preventívne opatrenia a zabezpečuje, aby projekt odolal nepredvídaným situáciám s minimálnym dopadom.",
+    href: "kontakt",
+    cta: "Mám záujem",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
-    className: "lg:col-span-2 lg:row-span-1", // Veľká karta dole (pravá strana)
+    className: "lg:col-span-1 lg:row-span-1",
+  },
+  {
+    Icon: PiLinkBold,
+    name: "Koordinácia tímov",
+    description: "Projektový manažér zosúlaďuje činnosť tímov z rôznych oddelení, aby všetci pracovali na spoločných cieľoch. Prostredníctvom efektívnej komunikácie a sledovania pokroku vedie tím k dosiahnutiu stanovených míľnikov včas.",
+    href: "kontakt",
+    cta: "Mám záujem",
+    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    className: "lg:col-span-1 lg:row-span-1",
+  },
+  {
+    Icon: PiSuitcaseSimple,
+    name: "Poradenstvo a školenia",
+    description:
+      "Projektový manažér poskytuje odborné poradenstvo a školenia, ktoré zvyšujú kvalifikáciu tímu a optimalizujú projektové procesy. Výsledkom je lepšia výkonnosť a efektivita tímov v dlhodobom horizonte.",
+    href: "kontakt",
+    cta: "Mám záujem",
+    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    className: "lg:col-span-2 lg:row-span-1",
   },
 ];
 
 const Services = () => {
   return (
-    <section id="služby">
-      <SectionHeading title="Služby" subtitle="Spolupracujem hlavne týmito zvolenými spôsobmi"/>
-      <BentoGrid className="max-w-[1000px] mx-auto grid gap-4 lg:grid-cols-3 lg:grid-rows-2">
+    <section id="služby" className="mb-20 md:mb-48">
+      <SectionHeading title="Služby" subtitle="Zameriavame sa na profesionálne projektové manažérske riešenia, prispôsobené vašim potrebám."/>
+      <Divider length={32}/>
+      <BentoGrid className="max-w-[1000px] mx-auto gap-4 px-10 lg:mt-10 lg:px-0 lg:grid-cols-3 lg:grid-rows-2">
         {features.map((feature) => (
-          <BentoCard key={feature.name} {...feature} />
+          <BentoCard key={feature.name} {...feature}/>
         ))}
       </BentoGrid>
     </section>

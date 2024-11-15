@@ -14,10 +14,10 @@ const HeroSection = () => {
                 src={hero_img}
                 alt="Project Manager"
                 className="w-[300px] md:w-[500px]"
-                initial={{ y: '50vh', opacity: 0 }} // Začína pod obrazovkou
-                animate={{ y: 0, opacity: 1 }} // Animácia na pozíciu 0 a zobrazenie
-                transition={{ type: 'spring', stiffness: 80, damping: 20 }} // Plynulý pohyb
-                whileHover={{ y: -10, scale: 1.05 }} // Efekt vznášania pri hoveri
+                initial={{ y: '50vh', opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ type: 'spring', stiffness: 80, damping: 20 }}
+                whileHover={{ y: -10, scale: 1.05 }}
             />
             </div>
 

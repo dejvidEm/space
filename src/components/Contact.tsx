@@ -10,8 +10,9 @@ import { AccordionComponent } from './ui/accordionComponent';
 
 const Contact = () => {
   return (
-    <div id='kontakt' className='max-w-[1200px] flex flex-col gap-20 lg:flex-row p-14 md:p-12 mx-auto'>
+    <div id='kontakt' className='max-w-[1200px] p-8 md:p-12 flex flex-col gap-20 lg:flex-row mx-auto'>
       <motion.section className='w-full lg:w-1/3'>
+        <h1 className='font-semibold text-xl text-center mb-8'>Mohlo by Vás zaujímať</h1>
         <AccordionComponent />
       </motion.section>
 
@@ -26,7 +27,7 @@ const Contact = () => {
         <SectionHeading title="Kontakt" />
         <p className='text-gray-700 dark:text-white/80 my-8'>
           Prosím kontaktujte ma mailom na 
-          <a className='underline font-bold text-[#124746] text' href="mailto:mikulasdejvid@gmail.com">martinbugar@gmail.com</a> 
+          <a className='underline font-bold text-[#124746] text' href="mailto:martinbugar@gmail.com"> martinbugar@gmail.com </a> 
           alebo prostredníctvom tohto formuláru
         </p>
         <div className='flex flex-col gap-4 items-start'>

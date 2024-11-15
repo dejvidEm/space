@@ -31,15 +31,29 @@ const Navbar = () => {
         </div>
 
         <div className="text-2xl font-bold absolute left-1/2 transform -translate-x-1/2">
-          <a href="#" className="text-white">
-            <span className="text-[#0a8980]">M</span>B<span className="text-[#0a8980]">.</span>
-          </a>
+        <Link
+              to="domov"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="cursor-pointer"
+            >
+              <span className="text-[#0a8980]">M</span>B<span className="text-[#0a8980]">.</span>
+            </Link>
         </div>
 
         <div className="flex items-center space-x-4">
-          <a href="#" className="border border-white px-4 py-2 text-white rounded hover:bg-white hover:text-black transition duration-200">
-            Začíname!
-          </a>
+        <Link
+              to="kontakt"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="border border-white px-4 py-2 text-white rounded cursor-pointer hover:bg-white hover:text-black transition duration-200"
+            >
+             Začíname!
+            </Link>
         </div>
       </div>
 
@@ -52,8 +66,8 @@ const Navbar = () => {
                 to={section.toLowerCase()}
                 spy={true}
                 smooth={true}
-                offset={10}
-                duration={100}
+                offset={-100}
+                duration={500}
                 onClick={() => setIsMenuOpen(false)}
                 className="text-white font-semibold hover:opacity-80 cursor-pointer"
               >

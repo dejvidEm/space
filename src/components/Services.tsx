@@ -1,9 +1,4 @@
-import {
-  BellIcon,
-  CalendarIcon,
-  FileTextIcon,
-  GlobeIcon,
-} from "@radix-ui/react-icons";
+import { CalendarIcon } from "@radix-ui/react-icons";
 
 import { PiLinkBold, PiNetwork, PiSuitcaseSimple   } from "react-icons/pi";
 

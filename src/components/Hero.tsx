@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import hero_img from '../assets/rocket-hero.webp';
+import hero_img from '../assets/mega-creator.webp';
 
 import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin} from "react-icons/ai";
 
@@ -13,7 +13,7 @@ const HeroSection = () => {
             <motion.img
                 src={hero_img}
                 alt="Project Manager"
-                className="w-[300px] md:w-[500px]"
+                className="w-[500px] md:w-[700px]"
                 initial={{ y: '50vh', opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 20 }}

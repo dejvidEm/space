@@ -70,7 +70,7 @@ const AboutCard: React.FC<CardData & { position: "left" | "right" }> = ({ title,
 };
 
 const AboutPage: React.FC = () => (
-  <div className="min-h-screen flex flex-col items-center p-4 md:p-8">
+  <div id="o mne" className="min-h-screen flex flex-col items-center p-4 md:p-8">
     <SectionHeading title={"O mne"} subtitle="Som Projektový manažér ktorý..."/>
     <div className="flex flex-col gap-8 relative mt-16">
       <div className="w-1 h-8 rounded-lg bg-gray-100 mx-auto"></div>

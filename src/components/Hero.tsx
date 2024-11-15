@@ -5,7 +5,7 @@ import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineGithub, AiOutlineLinked
 
 const HeroSection = () => {
     return (
-      <section className="relative flex flex-col md:flex-row items-center min-h-screen px-8 md:px-20 py-20 bg-white overflow-hidden">
+      <section id='domov' className="relative flex flex-col md:flex-row items-center min-h-screen px-8 md:px-20 py-20 bg-white overflow-hidden">
         <div className="absolute w-[200px] h-[250px] bg-[#0a8980] rounded-full opacity-90 blur-[100px] -top-30 left-1/3 z-0"></div>
         <div className="absolute w-[200px] h-[250px] bg-green-200 rounded-full opacity-90 blur-[70px] top-40 right-1/4 z-0"></div>
   

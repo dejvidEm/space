@@ -15,8 +15,8 @@ const Navbar = () => {
               to={section.toLowerCase()}
               spy={true}
               smooth={true}
-              offset={10}
-              duration={100}
+              offset={-100}
+              duration={500}
               className="text-white font-bold hover:text-[#0a8980] cursor-pointer transition-all"
             >
               {section}

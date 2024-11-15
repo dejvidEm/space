@@ -26,7 +26,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: -80 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: .8 }}>
-            <h2 className="text-xl md:text-2xl font-extrabold text-gray-400">Project Manager</h2>
+            <h2 className="text-xl md:text-2xl font-extrabold text-gray-600">Project Manager</h2>
             <h1 className="text-4xl md:text-7xl font-extrabold text-gray-800">
               Marek 
               <span className='text-[#124746]'> Bagár</span>
@@ -51,7 +51,8 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
-              >
+              aria-label={`Visit ${link} on social media`}
+            >
               {link.icon}
             </motion.a>
           ))}

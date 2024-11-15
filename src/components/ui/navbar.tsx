@@ -11,6 +11,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           {['Domov', 'O mne', 'Služby', 'Kontakt'].map((section) => (
             <Link
+              href={section}
               key={section}
               to={section.toLowerCase()}
               spy={true}
@@ -32,6 +33,7 @@ const Navbar = () => {
 
         <div className="text-2xl font-bold absolute left-1/2 transform -translate-x-1/2">
         <Link
+              href="domov"
               to="domov"
               spy={true}
               smooth={true}
@@ -45,6 +47,7 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-4">
         <Link
+              href='kontakt'
               to="kontakt"
               spy={true}
               smooth={true}
@@ -62,6 +65,7 @@ const Navbar = () => {
           <div className="flex flex-col items-start space-y-4 px-6 py-4">
             {['Domov', 'O mne', 'Služby', 'Kontakt'].map((section) => (
               <Link
+                href={section}
                 key={section}
                 to={section.toLowerCase()}
                 spy={true}

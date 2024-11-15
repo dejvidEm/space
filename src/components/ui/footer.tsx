@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -8,9 +9,14 @@ const Footer = () => {
         
         {/* Logo a názov stránky */}
         <div className="flex items-center space-x-2 text-2xl font-bold">
-            <a href="#" className="text-white">
+            <Link href="domov"
+              to="domov"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500} className="text-white">
                 <span className="text-[#0a8980]">M</span>B<span className="text-[#0a8980]">.</span>
-            </a>
+            </Link>
         </div>
 
 
@@ -32,13 +38,14 @@ const Footer = () => {
 
         <nav className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center">
             {["Domov", "O mne", "Služby", "Kontakt"].map((link) => (
-            <a
-              href={`#${link.toLowerCase()}`}
-              className="text-white hover:text-[#0a8980] transition"
-              key={link}
-                >
+                  <Link href="domov"
+              to="domov"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500} className="text-white hover:text-[#0a8980] transition">
               {link}
-            </a>
+            </Link>
           ))}
         </nav>
 

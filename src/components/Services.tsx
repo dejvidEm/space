@@ -14,7 +14,6 @@ const features = [
     description: "Efektívne plánovanie je základom úspešného projektu. Zahŕňa tvorbu podrobného plánu, ktorý definuje rozsah, harmonogram a alokáciu zdrojov, čím zaisťuje plynulý priebeh bez časových a rozpočtových sklzov.",
     href: "kontakt",
     cta: "Mám záujem",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-span-2 lg:row-span-1",
   },
   {
@@ -23,7 +22,6 @@ const features = [
     description: "Identifikácia a správa rizík zabezpečujú stabilitu projektu. Projektový manažér analyzuje potenciálne riziká, pripravuje preventívne opatrenia a zabezpečuje, aby projekt odolal nepredvídaným situáciám s minimálnym dopadom.",
     href: "kontakt",
     cta: "Mám záujem",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-span-1 lg:row-span-1",
   },
   {
@@ -32,7 +30,6 @@ const features = [
     description: "Projektový manažér zosúlaďuje činnosť tímov z rôznych oddelení, aby všetci pracovali na spoločných cieľoch. Prostredníctvom efektívnej komunikácie a sledovania pokroku vedie tím k dosiahnutiu stanovených míľnikov včas.",
     href: "kontakt",
     cta: "Mám záujem",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-span-1 lg:row-span-1",
   },
   {
@@ -42,7 +39,6 @@ const features = [
       "Projektový manažér poskytuje odborné poradenstvo a školenia, ktoré zvyšujú kvalifikáciu tímu a optimalizujú projektové procesy. Výsledkom je lepšia výkonnosť a efektivita tímov v dlhodobom horizonte.",
     href: "kontakt",
     cta: "Mám záujem",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-span-2 lg:row-span-1",
   },
 ];

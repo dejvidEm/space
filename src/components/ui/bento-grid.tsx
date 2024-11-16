@@ -29,12 +29,14 @@ const BentoCard = ({
   className,
   Icon,
   description,
+  hashtag,
   cta,
 }: {
   name: string;
   className: string;
   Icon: any;
   description: string;
+  hashtag: string;
   href: string;
   cta: string;
 }) => (
@@ -42,9 +44,7 @@ const BentoCard = ({
     key={name}
     className={cn(
       "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl",
-      // light styles
       "bg-white [box-shadow:0_0_0_1px_rgba(18,71,70,.03),0_2px_4px_rgba(18,71,70,.05),0_12px_24px_rgba(18,71,70,.05)]",
-      // dark styles
       "transform-gpu dark:bg-black dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_0_0_1px_rgba(18,71,70,.03),0_2px_4px_rgba(18,71,70,.05),0_12px_24px_rgba(18,71,70,.05)]",
       className,
     )}
@@ -55,6 +55,7 @@ const BentoCard = ({
         {name}
       </h3>
       <p className="max-w-lg text-neutral-600">{description}</p>
+      <p className="text-lg text-[#2dc4c1] font-semibold"><span className="text-2xl text-[#124746]">#</span>{hashtag}</p>
     </div>
 
     <div

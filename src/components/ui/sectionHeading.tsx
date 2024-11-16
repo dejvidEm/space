@@ -5,7 +5,7 @@ interface SectionHeadingProps {
 
 const SectionHeading: React.FC<SectionHeadingProps> = ({ title, subtitle }) => {
   return (
-    <div className='text-center mb-8'>
+    <div className='text-center mb-8 px-4'>
       <h2 className='text-2xl md:text-4xl font-semibold capitalize'>{title}</h2>
       {subtitle && <p className='text-lg md:text-xl mt-2 text-gray-500'>{subtitle}</p>}
     </div>

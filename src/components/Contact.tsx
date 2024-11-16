@@ -27,7 +27,7 @@ const Contact = () => {
         <SectionHeading title="Kontakt" />
         <p className='text-gray-700 dark:text-white/80 my-8'>
           Prosím kontaktujte ma mailom na 
-          <a className='underline font-bold text-[#124746] text' href="mailto:martinbugar@gmail.com"> martinbugar@gmail.com </a> 
+          <a className='underline font-bold text-[#124746] text' href="mailto:marek.bugar@spacesolutions.sk"> marek.bugar@spacesolutions.sk </a> 
           alebo prostredníctvom tohto formuláru
         </p>
         <div className='flex flex-col gap-4 items-start'>

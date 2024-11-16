@@ -73,7 +73,9 @@ const HeroSection = () => {
           ))}
         </div>
       </div>
-      <AnimatedArrow/>
+      <div className='visible md:hidden'>
+        <AnimatedArrow/>
+      </div>
     </section>
   );
 };

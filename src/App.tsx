@@ -5,6 +5,7 @@ import Services from './components/Services'
 import Contact from './components/Contact'
 import Navbar from './components/ui/navbar'
 import Footer from './components/ui/footer'
+import HowItWorks from './components/HowItWorks'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <AboutMe/>
+      <HowItWorks/>
       <Services/>
       <Contact/>
       <Footer/>

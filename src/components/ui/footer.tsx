@@ -63,8 +63,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 mt-20">
-        {new Date().getFullYear()} Marek Bagár © Všetky práva vyhradené.
+      <div className="text-center flex flex-col gap-4 text-gray-500 mt-20">
+        <a href="#">
+          <p className="underline">Zásady používania osobných údajov a súborov cookie EU</p>
+        </a>
+        <p>{new Date().getFullYear()} Marek Bagár © Všetky práva vyhradené.</p>
       </div>
     </footer>
   );

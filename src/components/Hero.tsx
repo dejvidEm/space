@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import hero_img from '../assets/hero.webp';
 import AnimatedArrow from './ui/animatedArrow';
-import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
 
 const HeroSection = () => {
   return (

@@ -38,7 +38,7 @@ const HeroSection = () => {
           </motion.div>
         </div>
 
-        <div style={{ minHeight: '80px' }}>
+        <div style={{ minHeight: '20px' }}>
           <motion.div
             className="flex flex-col mt-10"
             initial={{ opacity: 0 }}
@@ -84,10 +84,6 @@ const socialLinks = [
   {
     href: 'https://www.linkedin.com/in/d%C3%A1vid-mikul%C3%A1%C5%A1-602a92226/',
     icon: <AiOutlineLinkedin size={27} />,
-  },
-  {
-    href: 'https://github.com/dejvidEm',
-    icon: <AiOutlineGithub size={27} />,
   },
   {
     href: 'https://www.instagram.com/dajvid_',

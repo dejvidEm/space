@@ -9,6 +9,7 @@ const Footer = () => {
 
         <div className="flex items-center space-x-2 text-2xl font-bold">
           <Link
+          href="domov"
             to="domov"
             spy={true}
             smooth={true}
@@ -38,6 +39,7 @@ const Footer = () => {
         <nav className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center">
           {["Domov", "O mne", "Služby", "Kontakt"].map((link, index) => (
             <Link
+              href={link.toLowerCase()}
               key={index}
               to={link.toLowerCase()}
               spy={true}
@@ -63,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center flex flex-col gap-4 text-sm md:text-md text-gray-500 mt-20">
+      <div className="text-center flex flex-col gap-4 text-sm md:text-md text-gray-200 mt-20">
         <a href="#">
           <p className="underline">Zásady používania osobných údajov a súborov cookie EU</p>
         </a>

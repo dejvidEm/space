@@ -55,7 +55,7 @@ const BentoCard = ({
         {name}
       </h3>
       <p className="max-w-lg text-neutral-600">{description}</p>
-      <p className="text-lg text-[#2dc4c1] font-semibold"><span className="text-2xl text-[#124746]">#</span>{hashtag}</p>
+      <p className="text-lg text-[#1e7472] font-semibold"><span className="text-2xl text-[#124746]">#</span>{hashtag}</p>
     </div>
 
     <div
@@ -65,6 +65,7 @@ const BentoCard = ({
     >
       <Button variant="ghost" asChild size="sm" className="pointer-events-auto cursor-pointer">
         <Link
+        href="kontakt"
         to="kontakt"
         spy={true}
         smooth={true}

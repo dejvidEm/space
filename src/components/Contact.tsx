@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id='kontakt' className='max-w-[1200px] p-8 md:p-12 flex flex-col gap-20 lg:flex-row mx-auto'>
       <motion.section className='w-full lg:w-1/3'>
-        <h1 className='font-semibold text-xl text-center mb-8'>Mohlo by Vás zaujímať</h1>
+        <h2 className='font-semibold text-xl text-center mb-8'>Mohlo by Vás zaujímať</h2>
         <AccordionComponent />
       </motion.section>
 

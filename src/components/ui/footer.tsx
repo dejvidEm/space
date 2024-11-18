@@ -56,11 +56,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 text-center">
           <div className="flex items-center space-x-2">
             <MdEmail size={20} />
-            <span>info@bagar.sk</span>
+            <span>marek.bugar@spacesolutions.sk</span>
           </div>
           <div className="flex items-center space-x-2">
             <MdPhone size={20} />
-            <span>+421 123 456 789</span>
+            <span>+421 918 483 891</span>
           </div>
         </div>
       </div>

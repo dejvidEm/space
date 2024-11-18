@@ -10,21 +10,21 @@ export interface CardData {
       id: 1,
       title: "Efektívne plánuje a vedie..",
       description:
-        "S viac ako 5-ročnou praxou v riadení projektov rôznej komplexnosti prinášam analytický prístup a systematické plánovanie, ktoré zaručujú úspešné doručenie projektov v rámci stanovených termínov a rozpočtu.",
+        "Som skúsený projektový a produktový manažér s dlhoročnou praxou v IT a marketingu, s preukázateľnými výsledkami pri riadení projektov, ktoré prinášajú reálne hodnoty klientom.",
       delay: 0.2,
     },
     {
       id: 2,
       title: "Otvorene spolupracuje..",
       description:
-        "Zameriavam sa na efektívnu komunikáciu a flexibilitu pri riešení problémov, čím zabezpečujem, že očakávania klientov a tímu sú správne nastavené, no zároveň sa dokážem prispôsobiť meniacim sa podmienkam.",
+        "Špecializujem sa na analýzu a tvorbu špecifikácií, optimalizáciu procesov, a riadenie tímov, pričom pomáham firmám zavádzať efektívne postupy v oblasti HR, IT a marketingu.",
       delay: 0.4,
     },
     {
       id: 3,
       title: "Je orientovaný na Inovácie..",
       description:
-        "Používam najmodernejšie metodiky ako Agile a Scrum, neustále sa vzdelávam a sústredím sa na poskytovanie pridaných hodnôt klientom. Mám záujem o nové výzvy, kde môžem využiť svoje skúsenosti a inovácie.",
+        "Moja filozofia je založená na proaktívnom prístupe, dôraze na výsledky a dôvere v spolupráci.",
       delay: 0.6,
     },
   ];

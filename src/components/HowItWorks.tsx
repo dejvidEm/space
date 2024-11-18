@@ -42,6 +42,8 @@ export default function Experience() {
                 <PiNotebook />
               ) : index === 2 ? (
                 <PiChatsCircle />
+              ) : index === 3 ? (
+                <PiChartLine />
               ) : (
                 <PiChartLine />
               )

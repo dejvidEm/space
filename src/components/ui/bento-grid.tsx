@@ -34,6 +34,7 @@ const BentoCard = ({
 }: {
   name: string;
   className: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   Icon: any;
   description: string;
   hashtag: string;

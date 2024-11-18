@@ -8,42 +8,52 @@ import {
 export const services = [
     {
       Icon: PiCalendarDots,
-      name: "Plánovanie projektov",
+      name: "Tvorba špecifikácií pre IT a marketingové projekty",
       description:
-        "Efektívne plánovanie je základom úspešného projektu. Zahŕňa tvorbu podrobného plánu, ktorý definuje rozsah, harmonogram a alokáciu zdrojov, čím zaisťuje plynulý priebeh bez časových a rozpočtových sklzov.",
-      hashtag: "TimelineManagement",
+        "Precízna dokumentácia pre programátorov, marketérov a grafikov.",
+      hashtag: "DetailedSpecifications",
       href: "kontakt",
       cta: "Mám záujem",
       className: "lg:col-span-2 lg:row-span-1",
     },
     {
       Icon: PiNetwork,
-      name: "Riadenie rizík",
+      name: "Riadenie projektov v IT a marketingu",
       description:
-        "Identifikácia a správa rizík zabezpečujú stabilitu projektu. Projektový manažér analyzuje potenciálne riziká, pripravuje preventívne opatrenia a zabezpečuje, aby projekt odolal nepredvídaným situáciám s minimálnym dopadom.",
-      hashtag: "RiskMitigation",
+        "Plánovanie, koordinácia tímov a sledovanie pokroku. Optimalizácia nákladov a zdrojov.",
+      hashtag: "ITmanagement",
       href: "kontakt",
       cta: "Mám záujem",
       className: "lg:col-span-1 lg:row-span-1",
     },
     {
       Icon: PiLinkBold,
-      name: "Koordinácia tímov",
+      name: "HR pre IT a marketingové oddelenia",
       description:
-        "Projektový manažér zosúlaďuje činnosť tímov z rôznych oddelení, aby všetci pracovali na spoločných cieľoch. Prostredníctvom efektívnej komunikácie a sledovania pokroku vedie tím k dosiahnutiu stanovených míľnikov včas.",
-      hashtag: "AgileManagement",
+        "Nábor, budovanie tímov a nastavovanie efektívnych procesov. Identifikácia potrieb firmy a hľadanie vhodných kandidátov.",
+      hashtag: "TeamWork",
       href: "kontakt",
       cta: "Mám záujem",
       className: "lg:col-span-1 lg:row-span-1",
     },
     {
       Icon: PiSuitcaseSimple,
-      name: "Poradenstvo a školenia",
+      name: "Stratégie a optimalizácia procesov",
       description:
-        "Projektový manažér poskytuje odborné poradenstvo a školenia, ktoré zvyšujú kvalifikáciu tímu a optimalizujú projektové procesy. Výsledkom je lepšia výkonnosť a efektivita tímov v dlhodobom horizonte.",
-      hashtag: "SkillDevelopment",
+        "Zavádzanie nástrojov a systémov na zlepšenie produktivity. Nastavenie dlhodobých plánov pre IT alebo marketingové oddelenia.",
+      hashtag: "UseCaseAnalysis",
       href: "kontakt",
       cta: "Mám záujem",
       className: "lg:col-span-2 lg:row-span-1",
     },
+    {
+      Icon: PiSuitcaseSimple,
+      name: "Externý projektový a produktový manažér",
+      description:
+        "Dočasné vedenie tímu vo vašej firme. Kompletná správa IT projektov, kampaní a iných aktivít.",
+      hashtag: "AgileLeadership",
+      href: "kontakt",
+      cta: "Mám záujem",
+      className: "lg:col-span-2 lg:row-span-1",
+    }
   ];

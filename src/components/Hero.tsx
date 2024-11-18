@@ -48,7 +48,7 @@ const HeroSection = () => {
             <h1 className="text-xl sm:text-2xl text-green-950 font-semibold italic -mt-20 mb-8 md:mb-2">
               „Kde vízia stretáva efektivitu“
             </h1>
-            <h2 className="text-md md:text-lg text-green-950">
+            <h2 className="text-md md:text-lg text-green-950 pb-8 md:pb-0">
               Projektový manažér zameraný na výsledky, premením vaše nápady na úspešné projekty.
             </h2>
           </motion.div>

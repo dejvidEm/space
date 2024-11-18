@@ -65,9 +65,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center flex flex-col gap-4 text-sm md:text-md text-gray-200 mt-20">
+      <div className="text-center flex flex-col gap-2 text-sm md:text-md text-gray-200 mt-20">
         <a href="#">
-          <p className="underline">Zásady používania osobných údajov a súborov cookie EU</p>
+          <p className="text-xs md:text-md underline">Zásady používania osobných údajov a súborov cookie EU</p>
         </a>
         <p className="text-slate-200">{new Date().getFullYear()} Marek Bagár © Všetky práva vyhradené.</p>
       </div>

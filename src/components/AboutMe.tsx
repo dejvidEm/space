@@ -9,7 +9,7 @@ const AboutPage: React.FC = () => (
       title={"O mne"}
       subtitle="Som Projektový manažér ktorý..."
     />
-    <div className="flex flex-col gap-8 relative mt-4">
+    <div className="flex flex-col gap-8 relative">
       <div className="w-1 h-8 rounded-lg bg-gray-100 mx-auto"></div>
       {cardsData.map((card, index) => (
         <React.Fragment key={card.id}>

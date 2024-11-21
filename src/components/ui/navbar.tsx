@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from "react-scroll";
+import { Button } from './button';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
               duration={500}
               className="cursor-pointer"
             >
-              <span className="text-[#0a8980]">M</span>B<span className="text-[#0a8980]">.</span>
+              <span className="text-[#00BFA6]">M</span>B<span className="text-[#00BFA6]">.</span>
             </Link>
         </div>
 
@@ -53,9 +54,10 @@ const Navbar = () => {
               smooth={true}
               offset={-100}
               duration={500}
-              className="border border-white px-4 py-2 text-white rounded cursor-pointer hover:bg-white hover:text-[#0A0A0A] transition duration-200"
             >
-             Začíname!
+              <Button variant="glowingOutlineCustomGreen" size="default">
+                Začíname!
+              </Button>
             </Link>
         </div>
       </div>

@@ -6,8 +6,8 @@ import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineLinkedin } from "react-
 const HeroSection = () => {
   return (
     <section id="domov" className="relative flex flex-col md:flex-row items-center min-h-screen px-8 md:px-20 py-32 md:py-20 bg-white overflow-hidden">
-      <div className="absolute w-[200px] h-[250px] bg-[#0a8980] rounded-full opacity-90 blur-[140px] -top-30 left-1/3 z-0"></div>
-      <div className="absolute w-[200px] h-[250px] bg-green-200 rounded-full opacity-90 blur-[70px] top-40 right-1/4 z-0"></div>
+      <div className="absolute w-[350px] h-[350px] bg-[#00BFA6] rounded-full opacity-90 blur-[200px] -top-30 left-[30%] z-0"></div>
+      <div className="absolute w-[300px] h-[300px] bg-green-300 rounded-full opacity-90 blur-[150px] top-40 right-[20%] z-0"></div>
 
       <div className="relative flex justify-center items-center md:flex-1 w-full h-full md:h-auto overflow-hidden">
         <motion.img
@@ -57,19 +57,19 @@ const HeroSection = () => {
         <div className="flex flex-row justify-center md:justify-normal gap-4 pb-8">
           {socialLinks.map((link, index) => (
             <motion.a
-              key={index}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white border border-black/15 p-3 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition hover:text-gray-950 cursor-pointer dark:bg-white/10 dark:text-white/80"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
-              aria-label={`Visit ${link} on social media`}
-              style={{ position: 'relative' }}
-            >
-              {link.icon}
-            </motion.a>
+            key={index}
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white border border-[#008F7A] p-3 text-[#006F5E] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition-all hover:bg-[#00BFA6] hover:text-white shadow-[0_0_10px_rgba(0,143,122,0.5)] hover:shadow-[0_0_15px_rgba(0,191,166,0.75)] cursor-pointer dark:bg-white/10 dark:text-white/80"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1, duration: 0.5 }}
+            aria-label={`Visit ${link} on social media`}
+            style={{ position: 'relative' }}
+          >
+            {link.icon}
+          </motion.a>
           ))}
         </div>
       </div>

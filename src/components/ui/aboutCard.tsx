@@ -25,11 +25,11 @@ const AboutCard: React.FC<CardData & { position: "left" | "right" }> = ({
 
   const icon =
     id === 1 ? (
-      <PiGraphFill size={32} className="text-[#0a8980]" />
+      <PiGraphFill size={32} className="text-[#00BFA6]" />
     ) : id === 2 ? (
-      <PiGlobe size={32} className="text-[#0a8980]" />
+      <PiGlobe size={32} className="text-[#00BFA6]" />
     ) : (
-      <PiRocketLaunchFill size={32} className="text-[#0a8980]" />
+      <PiRocketLaunchFill size={32} className="text-[#00BFA6]" />
     );
 
   return (

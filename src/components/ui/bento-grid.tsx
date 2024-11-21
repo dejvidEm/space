@@ -50,13 +50,13 @@ const BentoCard = ({
       className,
     )}
   >
-    <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
+    <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-4">
       <Icon className="h-12 w-12 origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75" />
       <h3 className="text-xl font-semibold text-[#124746]">
         {name}
       </h3>
       <p className="max-w-lg text-neutral-600">{description}</p>
-      <p className="text-lg text-[#1e7472] font-semibold"><span className="text-2xl text-[#124746]">#</span>{hashtag}</p>
+      <p className="text-lg text-[#00BFA6] font-semibold"><span className="text-2xl text-[#124746]">#</span>{hashtag}</p>
     </div>
 
     <div

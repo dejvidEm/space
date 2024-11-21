@@ -27,8 +27,7 @@ export default function Experience() {
           <VerticalTimelineElement
             key={index}
             contentStyle={{
-              background: "linear-gradient(to bottom, #ebebeb, #bad6d6)",
-              boxShadow: "none",
+              boxShadow: "0 0 20px rgba(5, 143, 122, .7)",
               border: "1px solid rgba(0, 0, 0, 0.05)",
               textAlign: "left",
               padding: "1.3rem 2rem",
@@ -49,6 +48,7 @@ export default function Experience() {
               )
             }
             iconStyle={{ background: "white", fontSize: "1.5rem" }}
+            className="transition duration-300"
           >
             <h3 className="text-lg font-semibold capitalize text-[#124746]">
               {item.title}

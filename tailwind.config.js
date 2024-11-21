@@ -9,6 +9,9 @@ module.exports = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+		  boxShadow: {
+			glow: "0 0 30px rgba(5, 143, 122, 1)",
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

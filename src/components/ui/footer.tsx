@@ -17,7 +17,7 @@ const Footer = () => {
             duration={500}
             className="text-white cursor-pointer"
           >
-            <span className="text-[#0a8980]">M</span>B<span className="text-[#0a8980]">.</span>
+            <span className="text-[#00BFA6]">M</span>B<span className="text-[#00BFA6]">.</span>
           </Link>
         </div>
 

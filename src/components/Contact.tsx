@@ -34,7 +34,7 @@ const Contact = () => {
           <Input type="email" placeholder="E-mail" />
           <Textarea placeholder="Vašu správu napíšte sem" />
           <AnimatedSubscribeButton
-            buttonColor="#000000"
+            buttonColor="#00BFA6"
             buttonTextColor="#ffffff"
             subscribeStatus={false}
             initialText={

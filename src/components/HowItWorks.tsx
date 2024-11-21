@@ -31,7 +31,7 @@ export default function Experience() {
               border: "1px solid rgba(0, 0, 0, 0.05)",
               textAlign: "left",
               padding: "1.3rem 2rem",
-              borderRadius: "20px",
+              borderRadius: "16px",
             }}
             contentArrowStyle={{ borderRight: "0.4rem solid #124746" }}
             date={item.id}

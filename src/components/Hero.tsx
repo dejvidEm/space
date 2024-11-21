@@ -6,8 +6,8 @@ import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineLinkedin } from "react-
 const HeroSection = () => {
   return (
     <section id="domov" className="relative flex flex-col md:flex-row items-center min-h-screen px-8 md:px-20 py-32 md:py-20 bg-white overflow-hidden">
-      <div className="absolute w-[350px] h-[350px] bg-[#00BFA6] rounded-full opacity-90 blur-[200px] -top-30 left-[30%] z-0"></div>
-      <div className="absolute w-[300px] h-[300px] bg-green-300 rounded-full opacity-90 blur-[150px] top-40 right-[20%] z-0"></div>
+      <div className="absolute w-[350px] h-[350px] bg-[#00BFA6] rounded-full opacity-90 blur-[220px] -top-30 left-[30%] z-0"></div>
+      <div className="absolute w-[300px] h-[300px] bg-green-300 rounded-full opacity-90 blur-[170px] top-40 right-[20%] z-0"></div>
 
       <div className="relative flex justify-center items-center md:flex-1 w-full h-full md:h-auto overflow-hidden">
         <motion.img

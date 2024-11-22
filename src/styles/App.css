@@ -4,7 +4,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-7px);  /* Levitácia 5px hore */
+    transform: translateY(-12px);  /* Levitácia 5px hore */
   }
   100% {
     transform: translateY(0);
@@ -12,5 +12,5 @@
 }
 
 .animate-lep {
-  animation: levitate 2s ease-in-out infinite; /* Levitácia sa bude opakovať nekonečne */
+  animation: levitate 2.3s ease-in-out infinite; /* Levitácia sa bude opakovať nekonečne */
 }

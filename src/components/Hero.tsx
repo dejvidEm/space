@@ -33,7 +33,7 @@ const HeroSection = () => {
           >
             <h2 className="text-xl md:text-2xl font-extrabold text-gray-600">Project Manager</h2>
             <h1 className="text-4xl md:text-7xl font-extrabold text-gray-800">
-              Marek <span className="text-[#124746]">Bagár</span>
+              Marek <span className="text-[#124746]">Bugár</span>
             </h1>
           </motion.div>
         </div>
